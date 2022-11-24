@@ -1,4 +1,4 @@
-# LAB 6 counter_7
+# Tugas 7 counter_7
 Symphony Cellis Zaana Saraaya - 2106752060 - PBP E
 
 ## Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
@@ -42,7 +42,7 @@ const umur = 21;
 - Membuat dua button menggunakan Wrap dan Countainer. Button minus hanya akan muncul apabila angka lebih dari 0 dan ketika dipencet akan berkurang, sedangkan button plus sebaliknya.
 
 
-# LAB 7 Flutter form
+# Tugas 8 Flutter form
 
 ##  Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement
 - Untuk push jika user back maka akan kembali ke halaman sebelumnya (home)
@@ -71,3 +71,20 @@ const umur = 21;
 - Membuat `form.dart` agar user bisa memasukkan input judul, nominal, dan jenis
 - Membuat `objectBudget.dart` untuk membuat object budget
 - Membuat `showDataBudget.dart`untuk menunjukan data yang sudah diinput user
+
+# Tugas 9 Integrasi Web Service pada Flutter
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Dengan membuat model, maka akan diketahui komponen keperluan data secara terstruktur. Pengambilan data JSON tanpa membuat model tetap dapat dilakukan namun lebih baik membuat model terlebih dahulu agar terstruktur.
+
+##  Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- Scaffold (layout design)
+- Text (menulis teks)
+- Appbar (menampilkan konten)
+- FutureBuilder (Membuat beberapa widget berdasarkan snapshot)
+dll.
+
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+Menambahkan http, membuat model, melakukan get, dilakukan pasrsing dengan mengubah string menjadi JSON, menggunakan FutureBuilder
+
+##  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas
+Membuat model, menamnbahkan dependensi http, mengambil dan mengolah data dari web service dengan membuat page mywatchlist dan mywatchlist_detail, menampilkan data serta detail data dari web service
